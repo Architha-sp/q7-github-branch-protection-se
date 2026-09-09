@@ -1,16 +1,16 @@
-# Branch Protection Demo
+# Branch Protection Demo!
 
 This repository demonstrates how GitHub branch protection rules prevent
 force-pushes and unreviewed code from reaching the `main` branch.
 
-## Objective
+## Objective!
 
 Protect the `main` branch from:
 - Direct force-pushes (`git push --force`)
 - Merges without at least 1 review approval
 - Merges when CI status checks are failing
 
-## Team Roles
+## Team Roles!
 
 | Person | Responsibility |
 |--------|----------------|
@@ -19,7 +19,7 @@ Protect the `main` branch from:
 | **C** | Opened a Pull Request with a small change on a feature branch |
 | **D** | Reviewed and approved C's PR, then merged it once status checks passed |
 
-## Branch Protection Rules (on `main`)
+## Branch Protection Rules (on `main`)!
 
 - ✅ Require a pull request before merging
 - ✅ Require at least 1 approval before merging
