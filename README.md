@@ -10,15 +10,6 @@ Protect the `main` branch from:
 - Merges without at least 1 review approval
 - Merges when CI status checks are failing
 
-## Team Roles
-
-| Person | Responsibility |
-|--------|----------------|
-| **A (repo owner)** | Created the repo, added the CI workflow, configured branch protection rules |
-| **B** | Cloned the repo and attempted a force-push from their laptop to trigger and document the rejection |
-| **C** | Opened a Pull Request with a small change on a feature branch |
-| **D** | Reviewed and approved C's PR, then merged it once status checks passed |
-
 ## Branch Protection Rules (on `main`)
 
 - ✅ Require a pull request before merging
